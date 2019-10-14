@@ -32,13 +32,13 @@ header{
     padding: 15px;
     justify-content: space-around;
 }
+
 /*street art section styling */
 
 #street-art{
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    line-height: 1;
 }
 
 #street-text{
@@ -46,11 +46,18 @@ header{
     padding-left: 50px;
     padding-right: 50px;
     font-size: 0.8em;
-    border: 1px red dotted;
+    line-height: 1.1;
 }
-#street-img{
-    border: 1px red dotted;
+
+#street-text p{
+    padding-top: 0;
 }
+
+#street-text h2{
+    line-height: 0;
+    padding-bottom: 0;
+}
+
 #street-art img{
     width: 400px;
     height: auto;
@@ -64,12 +71,14 @@ header{
     width: 100%;
     align-items: center;
 }
+
 #lorem-section .child{
     box-sizing: border-box;
-    padding: 20px;
+    padding: 25px;
     font-size: 0.8em;
     line-height: 2;
 }
+
 #lorem-section img{
     width: 200px;
     height: auto;;
