@@ -1,11 +1,10 @@
 /* css reset */
 
-html{
+body{
     margin: 0;
     padding: 0;
-    width: 99vw;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 /*header section*/
@@ -15,9 +14,11 @@ header{
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    font-size: 1.8em;
+    font-size: 1.6em;
+    padding: 15px;
     font-family: sans-serif;
-    padding: 20px;
+    margin: 0;
+    width: 100%;
 }
 
 /*parent, child flex positioning*/
@@ -26,11 +27,12 @@ header{
     display: flex;
     flex-direction: row;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .child{
-    padding: 15px;
     justify-content: space-around;
+    margin: 15px;
 }
 
 /*street art section styling */
@@ -43,19 +45,13 @@ header{
 
 #street-text{
     max-width: 25%;
-    padding-left: 50px;
-    padding-right: 50px;
     font-size: 0.8em;
     line-height: 1.1;
-}
-
-#street-text p{
-    padding-top: 0;
+    min-width: 300px;
 }
 
 #street-text h2{
     line-height: 0;
-    padding-bottom: 0;
 }
 
 #street-art img{
@@ -73,10 +69,15 @@ header{
 }
 
 #lorem-section .child{
-    box-sizing: border-box;
-    padding: 25px;
+    box-sizing: margin-box;
     font-size: 0.8em;
     line-height: 2;
+    max-width: 25%;
+    min-width: 250px;
+    margin: auto;
+}
+#lorem-section p{
+    max-width: 250px;
 }
 
 #lorem-section img{
