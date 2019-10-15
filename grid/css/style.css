@@ -14,7 +14,7 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
     align-items: center;
     justify-content: space-around;
     justify-items: center;
@@ -46,7 +46,7 @@ header{
 }
 
 #child-1-section-2, #child-2-section-2, .child-section-3{
-    margin: 10px;
+    margin: 15px;
     font-size: 0.8em;
     max-width: 400px;
 }
